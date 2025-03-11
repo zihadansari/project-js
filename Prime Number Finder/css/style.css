@@ -1,0 +1,84 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.utility_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(207, 224, 159);
+  border-radius: 15px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.outer-box {
+  height: 100vh;
+}
+
+.inner-box {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn-container {
+  gap: 15px;
+}
+
+.logo-text {
+  color: rgb(31, 145, 31);
+}
+
+.gfglogo {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-style {
+  width: 100px;
+  height: 30px;
+  background: green;
+  border-radius: 15px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 3px;
+  border: none;
+}
+
+.message {
+  background-color: rgb(47, 71, 11);
+  height: 100px;
+  text-align: center;
+  color: antiquewhite;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  border: 2px solid rgb(14, 112, 14);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.para-text {
+  padding: 20px;
+}
+
+.sub-heading {
+  color: rgb(12, 78, 12);
+  font-size: 25px;
+}

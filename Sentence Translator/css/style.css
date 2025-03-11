@@ -1,0 +1,44 @@
+textarea {
+  display: block;
+  margin: 1rem;
+  width: 70vw;
+  height: 20vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 50px;
+  text-align: center;
+  background-color: #f77e38;
+  padding: 1rem;
+}
+
+#btn-translate {
+  background-color: #f77e38;
+  border-radius: 12px;
+  height: 5vh;
+  width: 20vw;
+  font-size: larger;
+  margin-left: 25vw;
+  cursor: pointer;
+}
+
+.main {
+  box-sizing: border-box;
+  margin-left: 15vw;
+}
+
+.footer {
+  font-size: 40px;
+  align-items: center;
+  margin-top: 8rem;
+  height: 7rem;
+  background-color: #f77e38;
+  text-align: center;
+}

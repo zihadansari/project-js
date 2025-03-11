@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>student calculate</title>
+    <!-- link for font  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- main html  -->
+    <div class="container">
+      <h1>Student grade calculator</h1>
+      <div class="screen-body-item">
+        <div class="app">
+          <div class="form-group">
+            <!-- option for taking the input -->
+            <input
+              type="number"
+              class="form-control"
+              placeholder="CHEMISTRY"
+              id="chemistry" />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="HINDI"
+              id="hindi" />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="MATHS"
+              id="maths" />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="PHYSICS"
+              id="phy" />
+          </div>
+          <div>
+            <input
+              type="button"
+              value="Show Percentage"
+              class="form-button"
+              onclick="calculate()" />
+          </div>
+        </div>
+      </div>
+      <!-- for showing the result-->
+      <div class="form-group showdata">
+        <p id="showdata"></p>
+      </div>
+    </div>
+    <!--adding external javascript file-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

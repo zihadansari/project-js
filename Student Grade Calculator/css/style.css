@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b7f3b7;
+  font-size: 12px;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 10px 10px;
+}
+
+.showdata {
+  color: black;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

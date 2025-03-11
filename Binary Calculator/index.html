@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Binary Calculator</title>
+
+    <!--Bootstrap 4 CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Binary Calculator</h1>
+        <div id="output"></div>
+        <div class="container mt-2">
+          <div class="row">
+            <div class="col-12">
+              <button type="button" class="btn btn-light" onclick="input('0')">
+                0
+              </button>
+              <button type="button" class="btn btn-light" onclick="input('1')">
+                1
+              </button>
+              <button
+                type="button"
+                class="btn btn-danger float-right ml-2"
+                onclick="cls()">
+                AC
+              </button>
+              <button
+                type="button"
+                class="btn btn-warning float-right"
+                onclick="backspace()">
+                Backspace
+              </button>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-12">
+              <button type="button" class="btn btn-info" onclick="input('+')">
+                +
+              </button>
+              <button type="button" class="btn btn-info" onclick="input('-')">
+                -
+              </button>
+              <button type="button" class="btn btn-info" onclick="input('*')">
+                *
+              </button>
+              <button type="button" class="btn btn-info" onclick="input('/')">
+                /
+              </button>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-12">
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="calculate()">
+                Calculate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--jquery and popper.js cdn -->
+    <script src="js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
